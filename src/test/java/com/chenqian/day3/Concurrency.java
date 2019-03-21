@@ -1,5 +1,6 @@
 package com.chenqian.day3;
 
+import org.testng.Assert;
 import org.testng.annotations.*;
 
 public class Concurrency
@@ -17,6 +18,7 @@ public class Concurrency
     @Test
     public void testTest1(){
         System.out.println("1111111111111111");
+        Assert.assertEquals(1,2);
     }
     @Test
     public void testTest2(){
