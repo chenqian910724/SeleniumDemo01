@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" thread-count="3" parallel="classes" >
+  <test name="Seleniumdemo">
+    <classes>
+      <class name="com.chenqian.day3.Concurrency">
+      </class>
+      <class name="com.chenqian.day1.TestNg">
+      </class>
+    </classes>
+  </test>
+</suite>
